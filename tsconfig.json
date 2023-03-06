@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "jsx": "preserve",
+      "allowJs": true,
+      "strict": false,
+      "esModuleInterop": true,
+      "importHelpers": true,
+      "moduleResolution": "node",
+      "moduleDetection": "auto",
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "rootDir": "src",
+      "sourceMap": true,
+      "lib": ["ESNext"],
+      "noEmit": false
+    },
+    "ts-node": {
+      "files": true
+    },
+    "exclude": ["node_modules/", "dist/"],
+    "include": ["src/*.ts", "src/**/*.ts"]
+  }
+  
